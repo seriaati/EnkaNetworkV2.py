@@ -9,7 +9,7 @@ class BuildInfo(BaseModel):
     name: str = ''
     avatar_id: Union[str,bool] = ''
     avatar_data: CharacterInfo
-    order: int = 0
+    order: float = 0
     live: bool = False
     settings: Dict[str, Any] = {}
     public: bool = True
